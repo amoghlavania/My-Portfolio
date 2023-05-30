@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+</head>
+
+<body>
+  <div class="container">
+    <header class="flex">
+      <!-- <div class="logo"><span>.</span></div> -->
+      <nav>
+        <ul class="flex">
+          <li><a href="#about">About</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="main flex">
+      <div class="main-one">
+        <h1>Hello! I am</h1>
+        <h2>Amogh Lavania</h2>
+        <span class="auto"></span>
+      </div>
+    </div>
+
+    <section class="projects" id="project">
+      <h1>My Awesome <br /><span>Projects</span></h1>
+      <p>
+        Lorem ipsum dolor sicing elit. Molestias officiis veniam reprehenderit
+        minima praesentium provident eos aperiam excepturi doloribus impedit.
+      </p>
+
+      <div class="projects-div flex div-1"><br><br>
+        <h3>Portfolio Template</h3>
+        <p>
+          <img src="./img/img3.png" width="50" height="40">
+        </p>
+        <button>Live Preview</button>
+      </div>
+
+      <div class="projects-div flex div-2"><br><br>
+        <h3>Booking App</h3>
+        <p>
+          <img src="./img/img1.png" width="50" height="40">
+        </p>
+        <button>Ongoing</button>
+      </div>
+
+      <div class="projects-div flex div-3"><br><br>
+        <h3>Banking Website</h3>
+        <p>
+          <img src="./img/img2.png" width="50" height="40">
+        </p>
+        <button>Live Preview</button>
+      </div>
+
+    </section>
+    <br /><br />
+
+    <section class="about flex" id="about">
+      <div class="about-one">
+        <h1>About me</h1>
+        <span>Amogh Lavania</span>
+        <p>
+          I am delighted to introduce myself as a passionate and dedicated computer science engineering student & I am
+          thrilled to embark on this journey of technological innovation and problem-solving. Throughout my academic
+          journey, I have developed a solid foundation in computer science principles, programming languages, and
+          algorithms, some of my skilled languages are Java, HTML, CSS, JavaScript, ReactJS, NodeJS.
+        </p>
+
+        <div class="btns">
+          <a href="https://www.linkedin.com/in/amogh-lavania/" target="_blank"><img src="./img/linkedin logo.png"
+              alt="LinkedIn" width=30" height="30"></a>
+          <a href="https://github.com/amoghlavania" target="_blank"><img src="./img/github logo.png" alt="GitHub"
+              width=30" height="30"></a>
+        </div>
+      </div>
+
+      <div class="about-two">
+        <img src="./img/IMG_3706.jpg" alt="" />
+      </div>
+    </section>
+    <br /><br /><br />
+
+    <section class="contact" id="contact">
+      <h1>Get in <span>Touch!</span></h1>
+      <div class="box flex">
+        <div>
+          <i class="fa-solid fa-user"></i>
+          <input type="text" placeholder="Enter your Full Name" />
+        </div>
+        <div>
+          <i class="fa-solid fa-envelope"></i>
+          <input type="email" placeholder="Enter your Full Email" />
+        </div>
+        <textarea name="" id="" cols="50" rows="0" placeholder="Enter your Message here"></textarea>
+        <div>
+          <input type="submit" class="send" value="Send" />
+        </div>
+      </div>
+    </section>
+
+    <footer class="flex" id="footer">
+      <div class="copy">© 2024 Made by AMOGH LAVANIA</div>
+      <div class="social">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-solid fa-phone"></i>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed(".auto", {
+      strings: ["Web Developer", "Web Designer", "An Engineer!"],
+      typeSpeed: 60,
+      backSpeed: 70,
+      loop: true,
+    });
+  </script>
+</body>
+
+</html>
