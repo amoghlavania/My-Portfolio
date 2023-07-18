@@ -27,39 +27,35 @@
         </nav>
       </header>
 
-      <section class="projects" id="project">
-        <h1>My Awesome<br /><span>Projects</span></h1>
-
-        <div class="projects-div flex div-1">
-          <br /><br />
-          <h3>Portfolio Template</h3>
-          <p>
-            <img src="./img/img3.png" width="50" height="40" />
-          </p>
-          <button>Live Preview</button>
-        </div>
-
-        <div class="projects-div flex div-2">
-          <br /><br />
-          <h3>Booking App</h3>
-          <p>
-            <img src="./img/img1.png" width="50" height="40" />
-          </p>
-          <button>Ongoing</button>
-        </div>
-
-        <div class="projects-div flex div-3">
-          <br /><br />
-          <h3>Banking Website</h3>
-          <p>
-            <img src="./img/img2.png" width="50" height="40" />
-          </p>
-          <a href="https://amoghlavania.github.io/Basic-Banking-System/">
-            <button>Preview</button></a
-          >
+      <section class="contact" id="contact">
+        <h1>Get in <span>Touch!</span></h1>
+        <div class="box flex">
+          <div>
+            <i class="fa-solid fa-user"></i>
+            <input type="text" id="name" placeholder="Enter your Full Name" />
+          </div>
+          <div>
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" id="email" placeholder="Enter Email Address" />
+          </div>
+          <textarea
+            name=""
+            id="message"
+            cols="50"
+            rows="2"
+            placeholder="Enter your Message here"
+          ></textarea>
+          <div>
+            <input
+              type="submit"
+              class="send"
+              value="Send"
+              onclick="sendMail()"
+            />
+            <!-- <input type="submit" class="send" value="Send" onclick="sendMail()">  -->
+          </div>
         </div>
       </section>
-      <br /><br />
 
       <!-- <footer class="flex" id="footer">
         <div class="copy">© 2024 Made by AMOGH LAVANIA</div>
